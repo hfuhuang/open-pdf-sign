@@ -31,5 +31,7 @@ class ConfigurationTest {
         Configuration.resetTestingInstance();
         Configuration instance = Configuration.getInstance(locale);
         assertEquals("Timestamp", instance.getResourceBundle().getString("timestamp"));
+        // test
+        assertTrue( 2 > 1);
     }
 }
